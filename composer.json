@@ -1,0 +1,23 @@
+{
+  "name" : "nia/templating",
+  "description" : "Collection of interfaces to implement templating functionality.",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "templating" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Templating\\" : "sources/",
+      "Test\\Nia\\Templating\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
